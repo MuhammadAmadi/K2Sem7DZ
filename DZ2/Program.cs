@@ -63,7 +63,7 @@ Console.Write("Введите кол-во столбцов: ");
 int column = Convert.ToInt32(Console.ReadLine());
 int[,] matrix = ArrayWithRandom(row, column);
 PrintMatrix(matrix);
-Console.Write("Введите:\n1 чтобы узнать индексы введенного числа в массиве" +
+Console.WriteLine("Введите:\n1 чтобы узнать индексы введенного числа в массиве" +
             "\n2 чтобы узнать число в введенных индексов ");
 row = Convert.ToInt32(Console.ReadLine());
 switch (row)
